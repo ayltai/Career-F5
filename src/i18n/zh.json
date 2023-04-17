@@ -1,0 +1,403 @@
+{
+    "language_en"                                              : "English",
+    "language_zh"                                              : "中文",
+    "branding"                                                 : "Career",
+    "courses"                                                  : "課程",
+    "contact"                                                  : "聯絡",
+    "about"                                                    : "關於",
+    "whatsapp"                                                 : "WhatsApp",
+    "copyright"                                                : "版權 © 2023 Career F5。版權所有。未經Career F5許可，不得複制任何資料。Career F5不能保證就業、薪水或職業發展。",
+    "category_overview"                                        : "概要",
+    "category_structure"                                       : "課程結構",
+    "category_courses"                                         : "課程",
+    "category_instructor"                                      : "導師",
+    "category_payment"                                         : "付款",
+    "category_prospect"                                        : "前景",
+    "category_contact"                                         : "聯絡",
+    "form_name"                                                : "姓名",
+    "form_email"                                               : "電子郵件",
+    "form_message"                                             : "信息",
+    "form_message_optional"                                    : "信息（選填）",
+    "form_specialisation"                                      : "專業",
+    "banner_title"                                             : "讓你的職業生涯在資訊科技行業的重生",
+    "banner_description"                                       : "用我們經過行業驗證的方法釋放您的潛力，成為一名軟件工程師 — 立即申請並獲得85折早鳥優惠",
+    "banner_part_time"                                         : "兼職時間",
+    "banner_remote"                                            : "遠程現場課程",
+    "banner_interview"                                         : "面試準備",
+    "apply_title"                                              : "開始你的申請 — 你成功的第一步",
+    "apply_description"                                        : "我們將盡快與你聯絡以審查你的申請以及安排強制篩查。",
+    "apply_note"                                               : "成功沒有秘訣。這是一個決定，是準備、努力和堅持的結果。",
+    "overview_title"                                           : "在不辭去日常工作的情況下將軟件工程師加到你的簡歷中",
+    "overview_description"                                     : "我們的兼職、完全遠程的培訓課程是靈活的，課程有導師實時的支持。對於那些沒有時間參加全日制的人來說，這是一個理想的選擇。在16週的時間裡，您應該每週投入10小時的實時課程和10到20小時的結對編程、代碼審查和自我練習。",
+    "structure_learning"                                       : "你會將學習到",
+    "instructor_header"                                        : "首席軟件架構師",
+    "instructor_name"                                          : "Alan",
+    "instructor_descriptions"                                  : [
+        "是一個技術倡導者、精通軟件架構、網頁和移動應用程序開發，涵蓋金融科技、人工智能、電信和社交媒體等廣泛知識領域。",
+        "他在J.P. Morgan Chase & Co.、匯豐銀行、Mox Bank、C. Hoare & Co.、NHS、Generali和許多其他頂級組織中擁有20年的項目交付經驗，幫助他們從零開始構想創意，創造有價值的業務。在過去的 4 年裡，他為這些組織中的不同職位進行了500多次面試。",
+        "作為雲基礎架構和DevOps的擁護者，他被Google認可並認證為專業雲架構師、AWS認證開發人員和Microsoft認證Azure管理員。"
+    ],
+    "experience_jpmc"                                          : "J.P. Morgan Chase & Co.",
+    "experience_hsbc"                                          : "匯豐銀行",
+    "experience_mox"                                           : "Mox Bank",
+    "experience_chc"                                           : "C. Hoare & Co.",
+    "experience_nhs"                                           : "NHS",
+    "experience_generali"                                      : "Generali",
+    "payment_title"                                            : "學費和計劃",
+    "payment_description"                                      : "對於2023年5月31日之前收到的申請，我們提供85折的早鳥優惠。整個課程（16 週）的學費為$22,900港元。您可以全額或分4期支付學費，即每4週支付一次。第一部分在申請被接受後必須支付。",
+    "payment_full_title"                                       : "全額付款",
+    "payment_full_description"                                 : "在2023年5月31日之後但在課程開始之前全額支付學費",
+    "payment_full_cost"                                        : "$22,900港元",
+    "payment_instalment_title"                                 : "每月分期付款",
+    "payment_instalment_description"                           : "分4期付款，每4週支付一次學費",
+    "payment_instalment_cost"                                  : "$24,800港元",
+    "payment_discount_title"                                   : "早鳥優惠",
+    "payment_discount_description"                             : "在2023年5月31日前繳清學費",
+    "payment_discount_cost"                                    : "$19,500港元（85折）",
+    "payment_interview_title"                                  : "面試準備",
+    "payment_interview_description"                            : "這是一門選修課，只能與16週完整課程一起申請。該課程提供兩個2小時的課程，幫助你準備面試技巧。不包含在課程學費中，將單獨收取學費。",
+    "payment_interview_cost"                                   : "$2,000港元",
+    "courses_header"                                           : "選擇正確的專業並開始在資訊科技領域打造你的職業生涯",
+    "prospect_title"                                           : "與我們一起培訓並獲得軟件工程師工作的報酬",
+    "prospect_per_month"                                       : "每月",
+    "prospect_per_year"                                        : "每年",
+    "contact_title"                                            : "有任何問題嗎？聯絡我們以獲得快速解答",
+    "contact_description"                                      : "讓我們探討一下我們如何幫助你實現你的職業目標。 填寫查詢表格或在WhatsApp上與我們聊天。",
+    "contact_sent_title"                                       : "你的信息已發送",
+    "contact_sent_description"                                 : "感謝你的信息。我們會盡快給你回覆。",
+    "structure_weeks"                                          : [
+        "週 1-2",
+        "週 3-6",
+        "週 7-10",
+        "週 11-12",
+        "週 13-16",
+        "面試準備（選修）"
+    ],
+    "structure_titles"                                         : [
+        "週 1-2 | 軟件開發基礎",
+        "週 3-6 | 基礎 Java / 基礎 JavaScript",
+        "週 7-10 | 後端開發 / 網頁前端開發 / 移動應用前端開發",
+        "週 11-12 | 測試驅動設計",
+        "週 13-16 | 頂點項目",
+        "面試準備（選修）"
+    ],
+    "structure_descriptions"                                   : [
+        "在開始培訓課程時你將會學習在職業生涯中取得成功所必需的習慣、計算機基礎知識以及基本編程概念和技能。在這幾週內，我們將介紹軟件開發生命週期和軟件架構，以及行業中使用的常用工具和技術，例如Scrum、Git、Linux和Bash。",
+        "在接下來的4週內，你將學習Java或JavaScript的基礎知識，具體取決於您的專業。你將學習語法、數據類型、控制流和面向對象的編程概念。你還將學習如何使用IDE和調試器編寫去調試代碼。",
+        "在接下來的4週內，你將學習使用Java Spring Boot或Node.js進行後端開發，使用React進行網頁開發，以及使用React Native或Android進行移動應用前端開發。你將學習如何構建RESTful API、如何使用數據庫、如何使用Redux構建網頁應用程序以及如何構建和發布移動應用程序。",
+        "在接下來的2週內，你將學習如何編寫測試用例以及如何使用測試驅動設計來編寫代碼。你將學習如何使用JUnit、Mockito、Jest和Cypress或Espresso來編寫單元測試和集成測試。",
+        "在接下來的4週內，你將將從事兩個頂點項目，兩個頂點項目，以應用你在前幾週學到的知識。你將與2或3人的團隊一起完成小組項目和個人項目。你將學習如何使用Git來管理你的代碼，如何使用Agile方法來管理項目的進度，以及如何使用CI/CD來管理部署應用程序。",
+        "在這些選修課程中，你將學習如何準備技術面試。你將通過我們提供的模擬面試、如何回答技術問題以及如何回答行為問題，學習如何創建理想的簡歷並為面試做準備。"
+    ],
+    "structure_learnings"                                      : [
+        [
+            "SDLC",
+            "Software design",
+            "Software architecture",
+            "Scrum",
+            "Git",
+            "Linux",
+            "Bash"
+        ],
+        [
+            "Java",
+            "JavaScript",
+            "IntelliJ",
+            "WebStorm",
+            "VS Code",
+            "OOP"
+        ],
+        [
+            "Spring Boot",
+            "Node.js",
+            "Express",
+            "React",
+            "React Native",
+            "Android",
+            "REST API",
+            "Database"
+        ],
+        [
+            "JUnit",
+            "Mockito",
+            "Jest",
+            "Cypress",
+            "Espresso",
+            "TDD"
+        ],
+        [],
+        []
+    ],
+    "location_hongkong"                                        : "香港",
+    "location_london"                                          : "倫敦",
+    "location_toronto"                                         : "多倫多",
+    "location_sydney"                                          : "悉尼",
+    "course_backend"                                           : "後端",
+    "course_frontend_web"                                      : "網頁前端",
+    "course_frontend_mobile"                                   : "移動應用前端",
+    "course_cloud"                                             : "雲工程",
+    "course_backend_java"                                      : "Java Spring Boot後端開發",
+    "course_backend_node"                                      : "Node.js後端開發",
+    "course_frontend_react"                                    : "React網頁前端開發",
+    "course_frontend_android"                                  : "Android移動應用前端開發",
+    "course_frontend_react_native"                             : "React Native移動應用前端開發",
+    "course_cloud_aws"                                         : "亞馬遜AWS雲工程",
+    "course_cloud_azure"                                       : "微軟Azure雲工程",
+    "course_cloud_gcp"                                         : "谷歌雲平台工程",
+    "course_details"                                           : [
+        {
+            "text"     : "course_backend_java",
+            "category" : "course_backend",
+            "tags"     : [
+                "Java",
+                "Spring Boot",
+                "API",
+                "Database"
+            ]
+        },
+        {
+            "text"     : "course_backend_node",
+            "category" : "course_backend",
+            "tags"     : [
+                "JavaScript",
+                "TypeScript",
+                "Node.js",
+                "Express",
+                "Hapi",
+                "Loopback"
+            ]
+        },
+        {
+            "text"     : "course_frontend_react",
+            "category" : "course_frontend_web",
+            "tags"     : [
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "Redux",
+                "Router",
+                "Material UI",
+                "Jest",
+                "Cypress",
+                "Storybook"
+            ]
+        },
+        {
+            "text"     : "course_frontend_android",
+            "category" : "course_frontend_mobile",
+            "tags"     : [
+                "Android",
+                "Java",
+                "Kotlin",
+                "Jetpack",
+                "Espresso",
+                "Camera",
+                "Permissions",
+                "Background tasks"
+            ]
+        },
+        {
+            "text"     : "course_frontend_react_native",
+            "category" : "course_frontend_mobile",
+            "tags"     : [
+                "React Native",
+                "Expo",
+                "Navigation",
+                "Native modules",
+                "Jest"
+            ]
+        },
+        {
+            "text"     : "course_cloud_aws",
+            "category" : "course_cloud",
+            "tags"     : [
+                "AWS",
+                "IAM",
+                "Networking",
+                "VM",
+                "Storage",
+                "Database",
+                "Monitoring",
+                "IaC"
+            ]
+        },
+        {
+            "text"     : "course_cloud_azure",
+            "category" : "course_cloud",
+            "tags"     : [
+                "Azure",
+                "IAM",
+                "Networking",
+                "VM",
+                "Storage",
+                "Database",
+                "Monitoring",
+                "IaC"
+            ]
+        },
+        {
+            "text"     : "course_cloud_gcp",
+            "category" : "course_cloud",
+            "tags"     : [
+                "GCP",
+                "IAM",
+                "Networking",
+                "VM",
+                "Storage",
+                "Database",
+                "Monitoring",
+                "IaC"
+            ]
+        }
+    ],
+    "segmentations"                                            : [
+        {
+            "location"    : {
+                "name"     : "location_hongkong",
+                "locale"   : "zh-HK",
+                "currency" : "HKD"
+            },
+            "professions" : [
+                {
+                    "name"     : "後端軟件工程師",
+                    "salaries" : {
+                        "min" : 257700,
+                        "avg" : 612000,
+                        "max" : 1623000
+                    }
+                },
+                {
+                    "name"     : "網頁工程師",
+                    "salaries" : {
+                        "min" : 350000,
+                        "avg" : 976500,
+                        "max" : 1234000
+                    }
+                },
+                {
+                    "name"     : "DevOps工程師",
+                    "salaries" : {
+                        "min" : 260000,
+                        "avg" : 798000,
+                        "max" : 1458000
+                    }
+                }
+            ]
+        },
+        {
+            "location"    : {
+                "name"     : "location_london",
+                "locale"   : "en-GB",
+                "currency" : "GBP"
+            },
+            "professions" : [
+                {
+                    "name"     : "後端軟件工程師",
+                    "salaries" : {
+                        "min" : 26800,
+                        "avg" : 63600,
+                        "max" : 116500
+                    }
+                },
+                {
+                    "name"     : "網頁工程師",
+                    "salaries" : {
+                        "min" : 36400,
+                        "avg" : 101500,
+                        "max" : 128300
+                    }
+                },
+                {
+                    "name"     : "DevOps工程師",
+                    "salaries" : {
+                        "min" : 27100,
+                        "avg" : 83000,
+                        "max" : 151500
+                    }
+                }
+            ]
+        },
+        {
+            "location"    : {
+                "name"     : "location_toronto",
+                "locale"   : "en-CA",
+                "currency" : "CAD"
+            },
+            "professions" : [
+                {
+                    "name"     : "後端軟件工程師",
+                    "salaries" : {
+                        "min" : 28000,
+                        "avg" : 88300,
+                        "max" : 250800
+                    }
+                },
+                {
+                    "name"     : "網頁工程師",
+                    "salaries" : {
+                        "min" : 54000,
+                        "avg" : 151000,
+                        "max" : 190600
+                    }
+                },
+                {
+                    "name"     : "DevOps工程師",
+                    "salaries" : {
+                        "min" : 40300,
+                        "avg" : 123000,
+                        "max" : 225200
+                    }
+                }
+            ]
+        },
+        {
+            "location"    : {
+                "name"     : "location_sydney",
+                "locale"   : "en-AU",
+                "currency" : "AUD"
+            },
+            "professions" : [
+                {
+                    "name"     : "後端軟件工程師",
+                    "salaries" : {
+                        "min" : 34200,
+                        "avg" : 107500,
+                        "max" : 305200
+                    }
+                },
+                {
+                    "name"     : "網頁工程師",
+                    "salaries" : {
+                        "min" : 65800,
+                        "avg" : 183600,
+                        "max" : 232000
+                    }
+                },
+                {
+                    "name"     : "DevOps工程師",
+                    "salaries" : {
+                        "min" : 49000,
+                        "avg" : 150000,
+                        "max" : 274000
+                    }
+                }
+            ]
+        }
+    ],
+    "action_apply"                                             : "立即申請",
+    "action_submit"                                            : "提交",
+    "action_submitting"                                        : "提交中……",
+    "action_close"                                             : "關閉",
+    "error_title"                                              : "錯誤",
+    "error_contact_failed"                                     : "發送消息失敗。請稍後再試。",
+    "error_apply_failed"                                       : "無法發送您的申請。請稍後再試。",
+    "error.required-not-set"                                   : "這是必填欄",
+    "widget.entry.875538261.enum.course_backend_java"          : "Java Spring Boot後端開發",
+    "widget.entry.875538261.enum.course_backend_node"          : "Node.js後端開發",
+    "widget.entry.875538261.enum.course_frontend_react"        : "React網頁前端開發",
+    "widget.entry.875538261.enum.course_frontend_android"      : "Android移動應用前端開發",
+    "widget.entry.875538261.enum.course_frontend_react_native" : "React Native移動應用前端開發",
+    "widget.entry.875538261.enum.course_cloud_aws"             : "亞馬遜AWS雲工程",
+    "widget.entry.875538261.enum.course_cloud_azure"           : "微軟Azure雲工程",
+    "widget.entry.875538261.enum.course_cloud_gcp"             : "谷歌雲平台工程"
+}

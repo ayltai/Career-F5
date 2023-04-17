@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StructureSection renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiBox-root css-12vwxo4"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+        >
+          <div
+            class="MuiBox-root css-70qvj9"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom css-8timqt-MuiTypography-root"
+            >
+              category
+            </h6>
+          </div>
+          <div
+            class="MuiStepper-root MuiStepper-vertical css-9tmuzo-MuiStepper-root"
+          >
+            <div
+              class="MuiStep-root MuiStep-vertical css-8wcvy5-MuiStep-root"
+            >
+              <button
+                aria-current="step"
+                class="MuiButtonBase-root MuiStepButton-root MuiStepButton-vertical css-rko9yk-MuiButtonBase-root-MuiStepButton-root"
+                color="text.secondary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiStepLabel-root MuiStepLabel-vertical css-14sza3e-MuiStepLabel-root"
+                >
+                  <span
+                    class="MuiStepLabel-iconContainer Mui-active css-vnkopk-MuiStepLabel-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root Mui-active css-kkz1hq-MuiSvgIcon-root-MuiStepIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                      />
+                      <text
+                        class="MuiStepIcon-text css-opt7yd-MuiStepIcon-text"
+                        dominant-baseline="central"
+                        text-anchor="middle"
+                        x="12"
+                        y="12"
+                      >
+                        1
+                      </text>
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiStepLabel-labelContainer css-1vyamtt-MuiStepLabel-labelContainer"
+                  >
+                    <span
+                      class="MuiStepLabel-label Mui-active css-25v9v6-MuiStepLabel-label"
+                    >
+                      step_1
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root MuiStepButton-touchRipple css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiStepContent-root css-14yr603-MuiStepContent-root"
+              >
+                <div
+                  class="MuiCollapse-root MuiCollapse-vertical MuiStepContent-transition MuiCollapse-entered css-1rw7nzj-MuiCollapse-root-MuiStepContent-transition"
+                  style="min-height: 0px;"
+                >
+                  <div
+                    class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                  >
+                    <div
+                      class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                    >
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1jd4bdu-MuiTypography-root"
+                      >
+                        title_1
+                      </h5>
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-2m1ky5-MuiTypography-root"
+                      >
+                        description_1
+                      </p>
+                      <hr
+                        class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+                      />
+                      <h6
+                        class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-1hb2odc-MuiTypography-root"
+                      >
+                        structure_learning
+                      </h6>
+                      <div
+                        class="MuiStack-root css-1bzkvkb-MuiStack-root"
+                      >
+                        <div
+                          class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-j82tey-MuiChip-root"
+                        >
+                          <span
+                            class="MuiChip-label MuiChip-labelSmall css-t3ycia-MuiChip-label"
+                          >
+                            tag_1
+                          </span>
+                        </div>
+                        <div
+                          class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-j82tey-MuiChip-root"
+                        >
+                          <span
+                            class="MuiChip-label MuiChip-labelSmall css-t3ycia-MuiChip-label"
+                          >
+                            tag_2
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiBox-root css-u1jr60"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiStepConnector-root MuiStepConnector-vertical css-1pe7n21-MuiStepConnector-root"
+            >
+              <span
+                class="MuiStepConnector-line MuiStepConnector-lineVertical css-8t49rw-MuiStepConnector-line"
+              />
+            </div>
+            <div
+              class="MuiStep-root MuiStep-vertical css-8wcvy5-MuiStep-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiStepButton-root MuiStepButton-vertical css-rko9yk-MuiButtonBase-root-MuiStepButton-root"
+                color="text.secondary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiStepLabel-root MuiStepLabel-vertical css-14sza3e-MuiStepLabel-root"
+                >
+                  <span
+                    class="MuiStepLabel-iconContainer css-vnkopk-MuiStepLabel-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root css-kkz1hq-MuiSvgIcon-root-MuiStepIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                      />
+                      <text
+                        class="MuiStepIcon-text css-opt7yd-MuiStepIcon-text"
+                        dominant-baseline="central"
+                        text-anchor="middle"
+                        x="12"
+                        y="12"
+                      >
+                        2
+                      </text>
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiStepLabel-labelContainer css-1vyamtt-MuiStepLabel-labelContainer"
+                  >
+                    <span
+                      class="MuiStepLabel-label css-25v9v6-MuiStepLabel-label"
+                    >
+                      step_2
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root MuiStepButton-touchRipple css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                class="MuiStepContent-root MuiStepContent-last css-1mz1l2x-MuiStepContent-root"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiBox-root css-12vwxo4"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="MuiBox-root css-70qvj9"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom css-8timqt-MuiTypography-root"
+          >
+            category
+          </h6>
+        </div>
+        <div
+          class="MuiStepper-root MuiStepper-vertical css-9tmuzo-MuiStepper-root"
+        >
+          <div
+            class="MuiStep-root MuiStep-vertical css-8wcvy5-MuiStep-root"
+          >
+            <button
+              aria-current="step"
+              class="MuiButtonBase-root MuiStepButton-root MuiStepButton-vertical css-rko9yk-MuiButtonBase-root-MuiStepButton-root"
+              color="text.secondary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiStepLabel-root MuiStepLabel-vertical css-14sza3e-MuiStepLabel-root"
+              >
+                <span
+                  class="MuiStepLabel-iconContainer Mui-active css-vnkopk-MuiStepLabel-iconContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root Mui-active css-kkz1hq-MuiSvgIcon-root-MuiStepIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="12"
+                    />
+                    <text
+                      class="MuiStepIcon-text css-opt7yd-MuiStepIcon-text"
+                      dominant-baseline="central"
+                      text-anchor="middle"
+                      x="12"
+                      y="12"
+                    >
+                      1
+                    </text>
+                  </svg>
+                </span>
+                <span
+                  class="MuiStepLabel-labelContainer css-1vyamtt-MuiStepLabel-labelContainer"
+                >
+                  <span
+                    class="MuiStepLabel-label Mui-active css-25v9v6-MuiStepLabel-label"
+                  >
+                    step_1
+                  </span>
+                </span>
+              </span>
+              <span
+                class="MuiTouchRipple-root MuiStepButton-touchRipple css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiStepContent-root css-14yr603-MuiStepContent-root"
+            >
+              <div
+                class="MuiCollapse-root MuiCollapse-vertical MuiStepContent-transition MuiCollapse-entered css-1rw7nzj-MuiCollapse-root-MuiStepContent-transition"
+                style="min-height: 0px;"
+              >
+                <div
+                  class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                >
+                  <div
+                    class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                  >
+                    <h5
+                      class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1jd4bdu-MuiTypography-root"
+                    >
+                      title_1
+                    </h5>
+                    <p
+                      class="MuiTypography-root MuiTypography-body2 MuiTypography-gutterBottom css-2m1ky5-MuiTypography-root"
+                    >
+                      description_1
+                    </p>
+                    <hr
+                      class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+                    />
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-1hb2odc-MuiTypography-root"
+                    >
+                      structure_learning
+                    </h6>
+                    <div
+                      class="MuiStack-root css-1bzkvkb-MuiStack-root"
+                    >
+                      <div
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-j82tey-MuiChip-root"
+                      >
+                        <span
+                          class="MuiChip-label MuiChip-labelSmall css-t3ycia-MuiChip-label"
+                        >
+                          tag_1
+                        </span>
+                      </div>
+                      <div
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-j82tey-MuiChip-root"
+                      >
+                        <span
+                          class="MuiChip-label MuiChip-labelSmall css-t3ycia-MuiChip-label"
+                        >
+                          tag_2
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-u1jr60"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiStepConnector-root MuiStepConnector-vertical css-1pe7n21-MuiStepConnector-root"
+          >
+            <span
+              class="MuiStepConnector-line MuiStepConnector-lineVertical css-8t49rw-MuiStepConnector-line"
+            />
+          </div>
+          <div
+            class="MuiStep-root MuiStep-vertical css-8wcvy5-MuiStep-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiStepButton-root MuiStepButton-vertical css-rko9yk-MuiButtonBase-root-MuiStepButton-root"
+              color="text.secondary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiStepLabel-root MuiStepLabel-vertical css-14sza3e-MuiStepLabel-root"
+              >
+                <span
+                  class="MuiStepLabel-iconContainer css-vnkopk-MuiStepLabel-iconContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root css-kkz1hq-MuiSvgIcon-root-MuiStepIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="12"
+                    />
+                    <text
+                      class="MuiStepIcon-text css-opt7yd-MuiStepIcon-text"
+                      dominant-baseline="central"
+                      text-anchor="middle"
+                      x="12"
+                      y="12"
+                    >
+                      2
+                    </text>
+                  </svg>
+                </span>
+                <span
+                  class="MuiStepLabel-labelContainer css-1vyamtt-MuiStepLabel-labelContainer"
+                >
+                  <span
+                    class="MuiStepLabel-label css-25v9v6-MuiStepLabel-label"
+                  >
+                    step_2
+                  </span>
+                </span>
+              </span>
+              <span
+                class="MuiTouchRipple-root MuiStepButton-touchRipple css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiStepContent-root MuiStepContent-last css-1mz1l2x-MuiStepContent-root"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

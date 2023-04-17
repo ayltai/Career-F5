@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerSection renders correctly for desktop 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiBox-root css-m9kwbm"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+        >
+          <div
+            class="MuiStack-root css-1uuwvaa-MuiStack-root"
+          >
+            <div
+              class="MuiStack-root css-hx2ulx-MuiStack-root"
+            >
+              <h2
+                class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom css-1qa9dzi-MuiTypography-root"
+              >
+                title
+              </h2>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-kw3p0j-MuiTypography-root"
+              >
+                description
+              </h6>
+              <div
+                class="MuiBox-root css-1phy807"
+              >
+                callToAction
+              </div>
+              <div
+                class="MuiStack-root css-nen11g-MuiStack-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-14zxv8a-MuiTypography-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ScheduleIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                    />
+                    <path
+                      d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                    />
+                  </svg>
+                   
+                  banner_part_time
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-14zxv8a-MuiTypography-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="PlaceIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                    />
+                  </svg>
+                   
+                  banner_remote
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-14zxv8a-MuiTypography-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="WorkOutlineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M14 6V4h-4v2h4zM4 8v11h16V8H4zm16-2c1.11 0 2 .89 2 2v11c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2l.01-11c0-1.11.88-2 1.99-2h4V4c0-1.11.89-2 2-2h4c1.11 0 2 .89 2 2v2h4z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                   
+                  banner_interview
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root css-i3ycue"
+            >
+              <div
+                class="MuiBox-root css-uqvtf5"
+              >
+                <img
+                  alt="title"
+                  height="480"
+                  src="foregroundImage"
+                  style="margin-top: 32px;"
+                  width="317"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiBox-root css-m9kwbm"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          class="MuiStack-root css-1uuwvaa-MuiStack-root"
+        >
+          <div
+            class="MuiStack-root css-hx2ulx-MuiStack-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom css-1qa9dzi-MuiTypography-root"
+            >
+              title
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-kw3p0j-MuiTypography-root"
+            >
+              description
+            </h6>
+            <div
+              class="MuiBox-root css-1phy807"
+            >
+              callToAction
+            </div>
+            <div
+              class="MuiStack-root css-nen11g-MuiStack-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-14zxv8a-MuiTypography-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="ScheduleIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                  <path
+                    d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                  />
+                </svg>
+                 
+                banner_part_time
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-14zxv8a-MuiTypography-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="PlaceIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                  />
+                </svg>
+                 
+                banner_remote
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-14zxv8a-MuiTypography-root"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="WorkOutlineIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M14 6V4h-4v2h4zM4 8v11h16V8H4zm16-2c1.11 0 2 .89 2 2v11c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2l.01-11c0-1.11.88-2 1.99-2h4V4c0-1.11.89-2 2-2h4c1.11 0 2 .89 2 2v2h4z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                 
+                banner_interview
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-i3ycue"
+          >
+            <div
+              class="MuiBox-root css-uqvtf5"
+            >
+              <img
+                alt="title"
+                height="480"
+                src="foregroundImage"
+                style="margin-top: 32px;"
+                width="317"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

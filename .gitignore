@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+[Dd]esktop.ini
+
+# JetBrains
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# NodeJS
+node_modules/
+package-lock.json
+
+# Testing
+coverage/
+*.lcov
+
+# Secrets
+.env
+
+# Generated
+build/
+*.log

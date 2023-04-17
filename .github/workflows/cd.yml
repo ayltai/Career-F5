@@ -1,0 +1,103 @@
+name: CD
+on:
+  release:
+    types:
+      - created
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Cache dependencies
+        id: cache-dependencies
+        uses: actions/cache@v3
+        with:
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          path: |
+            node_modules
+            ~/.npm
+      - name: Install dependencies
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: npm i --legacy-peer-deps
+      - run: npm run build
+        env:
+          REACT_APP_MIXPANEL_TOKEN: ${{ secrets.REACT_APP_MIXPANEL_TOKEN }}
+          REACT_APP_SENTRY_DSN: ${{ secrets.REACT_APP_SENTRY_DSN }}
+          REACT_APP_WHATSAPP_PHONE_NUMBER: ${{ secrets.REACT_APP_WHATSAPP_PHONE_NUMBER }}
+      - name: Upload build
+        uses: actions/upload-artifact@v3
+        with:
+            name: build
+            path: build/
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - name: Download build
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build/
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          cname: careerf5.tech
+  check:
+    runs-on: ubuntu-latest
+    needs:
+      - deploy
+    steps:
+      - name: Wait for 1 minute
+        run: sleep 60
+        shell: bash
+      - name: Check if site is up
+        uses: lakuapik/gh-actions-http-status@v1
+        with:
+          sites: '["https://careerf5.tech"]'
+          expected: '[200]'
+  sentry:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Cache dependencies
+        id: cache-dependencies
+        uses: actions/cache@v3
+        with:
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          path: |
+            node_modules
+            ~/.npm
+      - name: Install dependencies
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: npm i --legacy-peer-deps
+      - name: Download build
+        uses: actions/download-artifact@v3
+        with:
+            name: build
+            path: build/
+      - name: Retrieve package version information
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@main
+      - name: Create a new Sentry release
+        run: ./node_modules/.bin/sentry-cli releases new ${{ steps.package-version.outputs.current-version }}
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_PROJECT: career-f5
+          SENTRY_ORG: alantai
+      - name: Upload source maps to Sentry
+        run: ./node_modules/.bin/sentry-cli releases files ${{ steps.package-version.outputs.current-version }} upload-sourcemaps build --rewrite
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_PROJECT: career-f5
+          SENTRY_ORG: alantai

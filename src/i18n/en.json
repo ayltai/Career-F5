@@ -1,0 +1,403 @@
+{
+    "language_en"                                              : "English",
+    "language_zh"                                              : "中文",
+    "branding"                                                 : "Career",
+    "courses"                                                  : "Courses",
+    "contact"                                                  : "Contact",
+    "about"                                                    : "About",
+    "whatsapp"                                                 : "WhatsApp",
+    "copyright"                                                : "Copyright © 2023 Career F5. All rights reserved. No information may be duplicated without Carrier F5's permission. Career F5 cannot guarantee employment, salary, or career advancement.",
+    "category_overview"                                        : "Overview",
+    "category_structure"                                       : "Course structure",
+    "category_courses"                                         : "Courses",
+    "category_instructor"                                      : "Instructor",
+    "category_payment"                                         : "Payment",
+    "category_prospect"                                        : "Prospect",
+    "category_contact"                                         : "Contact",
+    "form_name"                                                : "Name",
+    "form_email"                                               : "Email",
+    "form_message"                                             : "Message",
+    "form_message_optional"                                    : "Message (optional)",
+    "form_specialisation"                                      : "Specialisation",
+    "banner_title"                                             : "Refresh your career in the IT industry",
+    "banner_description"                                       : "Unlock your potential with our industry-proven method and become a software engineer — apply now and receive a 15% early bird discount",
+    "banner_part_time"                                         : "Part-time schedules",
+    "banner_remote"                                            : "Fully remote live lessons",
+    "banner_interview"                                         : "Interview preparations",
+    "apply_title"                                              : "Start your application — your first step to success",
+    "apply_description"                                        : "We will get in touch with you shortly to review your application along with a mandatory screening.",
+    "apply_note"                                               : "There are no secrets to success. It is a decision, the result of preparation, hard work, and persistence.",
+    "overview_title"                                           : "Add developer to your resume without quitting your day job",
+    "overview_description"                                     : "Our part-time, fully remote software development training courses are flexible tools that provide complete online access to the course materials with real-time support from the instructor. This is an ideal option for those who don't have time to commit to a full-time coding bootcamp. You should expect to commit 10 hours for live lessons and 10 to 20 hours of pair programming, code reviews, and self-practice per week over 16 weeks.",
+    "structure_learning"                                       : "What you'll learn",
+    "instructor_header"                                        : "Principal Software Architect",
+    "instructor_name"                                          : "Alan",
+    "instructor_descriptions"                                  : [
+        " is a technology advocate, proficient in software architecture, web and mobile application development, covering wide-ranging knowledge domains including FinTech, AI, Telecom, and social media.",
+        "He has 20 years of experience delivering projects at J.P. Morgan Chase & Co., HSBC, Mox Bank, C. Hoare & Co., NHS, Generali, and many other top-tier organisations, helping them build ideas from the ground up into full-scale value-generating operations. In the past 4 years, he has conducted over 500 interviews for various roles in these organisations.",
+        "As a champion of cloud infrastructures and DevOps, he is recognised and certified as a Professional Cloud Architect by Google, a Certified Developer by AWS, and a Certified Azure Administrator by Microsoft."
+    ],
+    "experience_jpmc"                                          : "J.P. Morgan Chase & Co.",
+    "experience_hsbc"                                          : "HSBC",
+    "experience_mox"                                           : "Mox Bank",
+    "experience_chc"                                           : "C. Hoare & Co.",
+    "experience_nhs"                                           : "NHS",
+    "experience_generali"                                      : "Generali",
+    "payment_title"                                            : "Tuition and plans",
+    "payment_description"                                      : "We offer a 15% early bird discount for the applications received before 31st May 2023. The tuition fee is HK$22,900 for the full course (16 weeks). You can pay the tuition fee in full or in 4 instalments, i.e. one instalment per 4 weeks. The first instalment is due upon application acceptance.",
+    "payment_full_title"                                       : "Full payment",
+    "payment_full_description"                                 : "Pay the tuition fee in full after 31st May 2023 but before the course starts",
+    "payment_full_cost"                                        : "HK$22,900",
+    "payment_instalment_title"                                 : "Monthly instalments",
+    "payment_instalment_description"                           : "Pay the tuition fee every 4 weeks, in 4 instalments",
+    "payment_instalment_cost"                                  : "HK$24,800",
+    "payment_discount_title"                                   : "Early bird discount",
+    "payment_discount_description"                             : "Pay the tuition fee in full before 31st May 2023",
+    "payment_discount_cost"                                    : "HK$19,500 (15% off)",
+    "payment_interview_title"                                  : "Interview preparations",
+    "payment_interview_description"                            : "This is an elective course that you may apply only together with one of the 16-week full course. The course provides two 2-hour sessions that will help you prepare for technical interviews. It is not included in the tuition fee and will be charged separately.",
+    "payment_interview_cost"                                   : "HK$2,000",
+    "courses_header"                                           : "Pick the right specialisation and start building your career in IT",
+    "prospect_title"                                           : "Train with us and get paid for tech jobs",
+    "prospect_per_month"                                       : "Per month",
+    "prospect_per_year"                                        : "Per year",
+    "contact_title"                                            : "Questions? Contact us for quick answers",
+    "contact_description"                                      : "Let's explore how we can help you achieve your career goals. Either fill out the form with your inquiry or chat with us on WhatsApp.",
+    "contact_sent_title"                                       : "Your message has been sent",
+    "contact_sent_description"                                 : "Thank you for your message. We will get back to you shortly.",
+    "structure_weeks"                                          : [
+        "Weeks 1-2",
+        "Weeks 3-6",
+        "Weeks 7-10",
+        "Weeks 11-12",
+        "Weeks 13-16",
+        "Interview preparations (Elective)"
+    ],
+    "structure_titles"                                         : [
+        "Weeks 1-2 | Software development fundamentals",
+        "Weeks 3-6 | Basic Java / Basic JavaScript",
+        "Weeks 7-10 | Backend development / Web frontend development / Mobile frontend development",
+        "Weeks 11-12 | Test-driven design",
+        "Weeks 13-16 | Capstone projects",
+        "Interview preparations (Elective)"
+    ],
+    "structure_descriptions"                                   : [
+        "To kick off the training course, you'll learn habits, computer basics, and fundamental programming concepts and skills necessary to be successful in your career. During these weeks, we'll cover the software development lifecycle and software architecture, and the common tools and technologies used in the industry such as Scrum, Git, Linux and Bash.",
+        "In the next 4 weeks, you'll learn the basics of Java or JavaScript, depending on your specialisation. You'll learn the syntax, data types, control flow, and object-oriented programming concepts. You'll also learn how to use the IDE and the debugger to write and debug code.",
+        "In the next 4 weeks, you'll learn the backend development with Java Spring Boot or Node.js, web frontend development with React, and mobile frontend development with React Native or Android. You'll learn how to build a RESTful API, how to use a database, how to build a web application with Redux, and how to build and publish a mobile application.",
+        "In the next 2 weeks, you'll learn how to write test cases and how to use test-driven design to write code. You'll learn how to use JUnit, Mockito, Jest and Cypress or Espresso to write unit tests and integration tests.",
+        "In the next 4 weeks, you'll work on two capstone projects to apply the knowledge you've learned in the previous weeks. You'll work on solo project and a group project with a team of 2 or 3 people. You'll learn how to use Git to manage your code, how to use Agile methodology to manage the progress of the project, and how to use the CI/CD pipeline to deploy the application.",
+        "In these elective sessions, you'll learn how to prepare for technical interviews. You'll learn how to create an ideal CV and prepare for the interview through the mock interviews we provide, how to answer technical questions, and how to answer the behavioural questions."
+    ],
+    "structure_learnings"                                      : [
+        [
+            "SDLC",
+            "Software design",
+            "Software architecture",
+            "Scrum",
+            "Git",
+            "Linux",
+            "Bash"
+        ],
+        [
+            "Java",
+            "JavaScript",
+            "IntelliJ",
+            "WebStorm",
+            "VS Code",
+            "OOP"
+        ],
+        [
+            "Spring Boot",
+            "Node.js",
+            "Express",
+            "React",
+            "React Native",
+            "Android",
+            "REST API",
+            "Database"
+        ],
+        [
+            "JUnit",
+            "Mockito",
+            "Jest",
+            "Cypress",
+            "Espresso",
+            "TDD"
+        ],
+        [ ],
+        [ ]
+    ],
+    "location_hongkong"                                        : "Hong Kong",
+    "location_london"                                          : "London",
+    "location_toronto"                                         : "Toronto",
+    "location_sydney"                                          : "Sydney",
+    "course_backend"                                           : "Backend",
+    "course_frontend_web"                                      : "Web frontend",
+    "course_frontend_mobile"                                   : "Mobile frontend",
+    "course_cloud"                                             : "Cloud",
+    "course_backend_java"                                      : "Java Spring Boot Backend Development",
+    "course_backend_node"                                      : "Node.js Backend Development",
+    "course_frontend_react"                                    : "React Web Frontend Development",
+    "course_frontend_android"                                  : "Android Mobile Frontend Development",
+    "course_frontend_react_native"                             : "React Native Mobile Frontend Development",
+    "course_cloud_aws"                                         : "Amazon AWS Cloud Engineering",
+    "course_cloud_azure"                                       : "Microsoft Azure Cloud Engineering",
+    "course_cloud_gcp"                                         : "Google Cloud Platform Engineering",
+    "course_details"                                           : [
+        {
+            "text"     : "course_backend_java",
+            "category" : "course_backend",
+            "tags"     : [
+                "Java",
+                "Spring Boot",
+                "API",
+                "Database"
+            ]
+        },
+        {
+            "text"     : "course_backend_node",
+            "category" : "course_backend",
+            "tags"     : [
+                "JavaScript",
+                "TypeScript",
+                "Node.js",
+                "Express",
+                "Hapi",
+                "Loopback"
+            ]
+        },
+        {
+            "text"     : "course_frontend_react",
+            "category" : "course_frontend_web",
+            "tags"     : [
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "Redux",
+                "Router",
+                "Material UI",
+                "Jest",
+                "Cypress",
+                "Storybook"
+            ]
+        },
+        {
+            "text"     : "course_frontend_android",
+            "category" : "course_frontend_mobile",
+            "tags"     : [
+                "Android",
+                "Java",
+                "Kotlin",
+                "Jetpack",
+                "Espresso",
+                "Camera",
+                "Permissions",
+                "Background tasks"
+            ]
+        },
+        {
+            "text"     : "course_frontend_react_native",
+            "category" : "course_frontend_mobile",
+            "tags"     : [
+                "React Native",
+                "Expo",
+                "Navigation",
+                "Native modules",
+                "Jest"
+            ]
+        },
+        {
+            "text"     : "course_cloud_aws",
+            "category" : "course_cloud",
+            "tags"     : [
+                "AWS",
+                "IAM",
+                "Networking",
+                "VM",
+                "Storage",
+                "Database",
+                "Monitoring",
+                "IaC"
+            ]
+        },
+        {
+            "text"     : "course_cloud_azure",
+            "category" : "course_cloud",
+            "tags"     : [
+                "Azure",
+                "IAM",
+                "Networking",
+                "VM",
+                "Storage",
+                "Database",
+                "Monitoring",
+                "IaC"
+            ]
+        },
+        {
+            "text"     : "course_cloud_gcp",
+            "category" : "course_cloud",
+            "tags"     : [
+                "GCP",
+                "IAM",
+                "Networking",
+                "VM",
+                "Storage",
+                "Database",
+                "Monitoring",
+                "IaC"
+            ]
+        }
+    ],
+    "segmentations"                                            : [
+        {
+            "location"    : {
+                "name"     : "location_hongkong",
+                "locale"   : "en-US",
+                "currency" : "HKD"
+            },
+            "professions" : [
+                {
+                    "name"     : "Backend Software Engineer",
+                    "salaries" : {
+                        "min" : 257700,
+                        "avg" : 612000,
+                        "max" : 1623000
+                    }
+                },
+                {
+                    "name"     : "Web Engineer",
+                    "salaries" : {
+                        "min" : 350000,
+                        "avg" : 976500,
+                        "max" : 1234000
+                    }
+                },
+                {
+                    "name"     : "DevOps Engineer",
+                    "salaries" : {
+                        "min" : 260000,
+                        "avg" : 798000,
+                        "max" : 1458000
+                    }
+                }
+            ]
+        },
+        {
+            "location"    : {
+                "name"     : "location_london",
+                "locale"   : "en-GB",
+                "currency" : "GBP"
+            },
+            "professions" : [
+                {
+                    "name"     : "Backend Software Engineer",
+                    "salaries" : {
+                        "min" : 26800,
+                        "avg" : 63600,
+                        "max" : 116500
+                    }
+                },
+                {
+                    "name"     : "Web Engineer",
+                    "salaries" : {
+                        "min" : 36400,
+                        "avg" : 101500,
+                        "max" : 128300
+                    }
+                },
+                {
+                    "name"     : "DevOps Engineer",
+                    "salaries" : {
+                        "min" : 27100,
+                        "avg" : 83000,
+                        "max" : 151500
+                    }
+                }
+            ]
+        },
+        {
+            "location"    : {
+                "name"     : "location_toronto",
+                "locale"   : "en-CA",
+                "currency" : "CAD"
+            },
+            "professions" : [
+                {
+                    "name"     : "Backend Software Engineer",
+                    "salaries" : {
+                        "min" : 28000,
+                        "avg" : 88300,
+                        "max" : 250800
+                    }
+                },
+                {
+                    "name"     : "Web Engineer",
+                    "salaries" : {
+                        "min" : 54000,
+                        "avg" : 151000,
+                        "max" : 190600
+                    }
+                },
+                {
+                    "name"     : "DevOps Engineer",
+                    "salaries" : {
+                        "min" : 40300,
+                        "avg" : 123000,
+                        "max" : 225200
+                    }
+                }
+            ]
+        },
+        {
+            "location"    : {
+                "name"     : "location_sydney",
+                "locale"   : "en-AU",
+                "currency" : "AUD"
+            },
+            "professions" : [
+                {
+                    "name"     : "Backend Software Engineer",
+                    "salaries" : {
+                        "min" : 34200,
+                        "avg" : 107500,
+                        "max" : 305200
+                    }
+                },
+                {
+                    "name"     : "Web Engineer",
+                    "salaries" : {
+                        "min" : 65800,
+                        "avg" : 183600,
+                        "max" : 232000
+                    }
+                },
+                {
+                    "name"     : "DevOps Engineer",
+                    "salaries" : {
+                        "min" : 49000,
+                        "avg" : 150000,
+                        "max" : 274000
+                    }
+                }
+            ]
+        }
+    ],
+    "action_apply"                                             : "Apply Now",
+    "action_submit"                                            : "Submit",
+    "action_submitting"                                        : "Submitting...",
+    "action_close"                                             : "Close",
+    "error_title"                                              : "Error",
+    "error_contact_failed"                                     : "Failed to send message. Please try again later.",
+    "error_apply_failed"                                       : "Failed to send your application. Please try again later.",
+    "error.required-not-set"                                   : "This field is required",
+    "widget.entry.875538261.enum.course_backend_java"          : "Java Spring Boot Backend Development",
+    "widget.entry.875538261.enum.course_backend_node"          : "Node.js Backend Development",
+    "widget.entry.875538261.enum.course_frontend_react"        : "React Web Frontend Development",
+    "widget.entry.875538261.enum.course_frontend_android"      : "Android Mobile Frontend Development",
+    "widget.entry.875538261.enum.course_frontend_react_native" : "React Native Mobile Frontend Development",
+    "widget.entry.875538261.enum.course_cloud_aws"             : "Amazon AWS Cloud Engineering",
+    "widget.entry.875538261.enum.course_cloud_azure"           : "Microsoft Azure Cloud Engineering",
+    "widget.entry.875538261.enum.course_cloud_gcp"             : "Google Cloud Platform Engineering"
+}
