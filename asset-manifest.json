@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5293e719.css",
+    "main.js": "/static/js/main.22d356fd.js",
+    "static/media/noto-serif-tc-chinese-traditional-700-normal.woff": "/static/media/noto-serif-tc-chinese-traditional-700-normal.ec88b25e65befc5386df.woff",
+    "static/media/noto-serif-tc-chinese-traditional-400-normal.woff": "/static/media/noto-serif-tc-chinese-traditional-400-normal.45d67b13510e313d5c4e.woff",
+    "static/media/noto-serif-tc-chinese-traditional-700-normal.woff2": "/static/media/noto-serif-tc-chinese-traditional-700-normal.4c2f3871fbec205aaa57.woff2",
+    "static/media/noto-serif-tc-chinese-traditional-400-normal.woff2": "/static/media/noto-serif-tc-chinese-traditional-400-normal.d156f01846d8ebccf978.woff2",
+    "static/media/noto-sans-tc-chinese-traditional-700-normal.woff": "/static/media/noto-sans-tc-chinese-traditional-700-normal.6c5b42e0503568ef138a.woff",
+    "static/media/noto-sans-tc-chinese-traditional-400-normal.woff": "/static/media/noto-sans-tc-chinese-traditional-400-normal.8fc6a1f8d4c14d93f6b4.woff",
+    "static/media/noto-sans-tc-chinese-traditional-700-normal.woff2": "/static/media/noto-sans-tc-chinese-traditional-700-normal.767a71556e73cb61142c.woff2",
+    "static/media/noto-sans-tc-chinese-traditional-400-normal.woff2": "/static/media/noto-sans-tc-chinese-traditional-400-normal.178b60a7095f826ea76b.woff2",
+    "static/media/lobster-two-all-400-normal.woff": "/static/media/lobster-two-all-400-normal.10f82f4d0e6a7d4d7c94.woff",
+    "static/media/lobster-two-latin-400-normal.woff2": "/static/media/lobster-two-latin-400-normal.6ebe441bb194ee48f9b9.woff2",
+    "static/media/sansita-all-700-normal.woff": "/static/media/sansita-all-700-normal.5d700894eda55c407e14.woff",
+    "static/media/sansita-all-400-italic.woff": "/static/media/sansita-all-400-italic.4069f04858e1d5a8d61b.woff",
+    "static/media/sansita-all-400-normal.woff": "/static/media/sansita-all-400-normal.827a6db8f631d1551607.woff",
+    "static/media/kreon-all-400-normal.woff": "/static/media/kreon-all-400-normal.aea56df9c18d9d335093.woff",
+    "static/media/kreon-all-700-normal.woff": "/static/media/kreon-all-700-normal.30dba8881c5e8410af4c.woff",
+    "static/media/sansita-latin-700-normal.woff2": "/static/media/sansita-latin-700-normal.54a0b3575e4a58abcb9e.woff2",
+    "static/media/sansita-latin-400-italic.woff2": "/static/media/sansita-latin-400-italic.5a657c29955ec69ebac5.woff2",
+    "static/media/sansita-latin-400-normal.woff2": "/static/media/sansita-latin-400-normal.1cb37d6be856c0ac919f.woff2",
+    "static/media/sansita-latin-ext-700-normal.woff2": "/static/media/sansita-latin-ext-700-normal.8a3974d984d1809ac611.woff2",
+    "static/media/sansita-latin-ext-400-italic.woff2": "/static/media/sansita-latin-ext-400-italic.b736789b1a27f3bc436c.woff2",
+    "static/media/sansita-latin-ext-400-normal.woff2": "/static/media/sansita-latin-ext-400-normal.b1a1599d78e0e328726c.woff2",
+    "static/media/kreon-latin-400-normal.woff2": "/static/media/kreon-latin-400-normal.97b67ddd46728ab4fef6.woff2",
+    "static/media/kreon-latin-700-normal.woff2": "/static/media/kreon-latin-700-normal.acbf479c54b578e72616.woff2",
+    "static/media/kreon-latin-ext-400-normal.woff2": "/static/media/kreon-latin-ext-400-normal.d47aaee9a464010e7200.woff2",
+    "static/media/kreon-latin-ext-700-normal.woff2": "/static/media/kreon-latin-ext-700-normal.e6bb69bfe8d284569bfa.woff2",
+    "index.html": "/index.html",
+    "main.5293e719.css.map": "/static/css/main.5293e719.css.map",
+    "main.22d356fd.js.map": "/static/js/main.22d356fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5293e719.css",
+    "static/js/main.22d356fd.js"
+  ]
+}
