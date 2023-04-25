@@ -10,19 +10,25 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
       - name: Cache dependencies
         id: cache-dependencies
         uses: actions/cache@v3
         with:
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           path: |
             node_modules
-            ~/.npm
+            ${{ steps.pnpm-cache.outputs.STORE_PATH }}
       - name: Install dependencies
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
-        run: npm i --legacy-peer-deps
+        run: pnpm i
       - name: Run tests
-        run: npm run test:ci
+        run: pnpm run test:ci
       - name: Upload coverage report
         uses: actions/upload-artifact@v3
         with:
@@ -51,18 +57,24 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
       - name: Cache dependencies
         id: cache-dependencies
         uses: actions/cache@v3
         with:
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           path: |
             node_modules
-            ~/.npm
+            ${{ steps.pnpm-cache.outputs.STORE_PATH }}
       - name: Install dependencies
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
-        run: npm i --legacy-peer-deps
-      - run: npm run build
+        run: pnpm i
+      - run: pnpm run build
         env:
           REACT_APP_MIXPANEL_TOKEN: ${{ secrets.REACT_APP_MIXPANEL_TOKEN }}
           REACT_APP_SENTRY_DSN: ${{ secrets.REACT_APP_SENTRY_DSN }}

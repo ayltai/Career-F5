@@ -20,7 +20,7 @@ export const InstructorSection = ({
     });
 
     const handleClick = () => {
-        mixpanel.track('Referral/LinkedIn');
+        if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('Referral/LinkedIn');
 
         return true;
     };

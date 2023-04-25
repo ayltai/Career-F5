@@ -15,6 +15,8 @@ const contactAction = <ContactAction />;
 
 const handleCallToActionClick = () => {
     if (process.env.REACT_APP_WHATSAPP_PHONE_NUMBER) {
+        if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('WhatsApp');
+
         const newWindow = window.open(`https://wa.me/${ process.env.REACT_APP_WHATSAPP_PHONE_NUMBER }`, '_blank', 'noopener,noreferrer');
         if (newWindow) newWindow.opener = null;
     }
@@ -51,13 +53,17 @@ export const App = () => {
         setErrorOpen(true);
 
         return false;
+    }).finally(() => {
+        if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('Apply');
     });
 
     const applyAction = (
         <ApplyAction onClick={handleApplyOpen} />
     );
 
-    useEffect(() => mixpanel.track('Home'), []);
+    useEffect(() => {
+        if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('Home');
+    }, []);
 
     useEffect(() => {
         i18n.changeLanguage(language).catch(handleError);

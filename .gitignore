@@ -15,10 +15,10 @@ Thumbs.db
 # NodeJS
 node_modules/
 package-lock.json
+pnpm-lock.yaml
 
 # Testing
 coverage/
-*.lcov
 
 # Secrets
 .env

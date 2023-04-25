@@ -1,4 +1,5 @@
 import { Box, Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, useTheme, } from '@mui/material';
+import mixpanel from 'mixpanel-browser';
 import React, { Fragment, ReactNode, useState, } from 'react';
 import { useTranslation, } from 'react-i18next';
 
@@ -65,6 +66,8 @@ export const Home = ({
         setErrorOpen(true);
 
         return false;
+    }).finally(() => {
+        if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('Contact');
     });
 
     return (

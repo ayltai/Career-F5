@@ -10,8 +10,7 @@ module.exports = {
     ignorePatterns : [
         'node_modules/',
         '.eslintrc.js',
-        'babel.config.js',
-        'config-overrides.js',
+        'craco.config.js',
     ],
     parser         : '@typescript-eslint/parser',
     parserOptions  : {
