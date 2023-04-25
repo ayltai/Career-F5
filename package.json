@@ -1,7 +1,7 @@
 {
     "name"            : "careerf5",
     "description"     : "Refresh your career in the IT industry!",
-    "version"         : "1.0.1",
+    "version"         : "1.0.2",
     "author"          : {
         "name" : "Alan Tai"
     },
@@ -49,7 +49,7 @@
         "@fontsource/noto-serif-tc" : "^4.5.12",
         "@fontsource/sansita"       : "^4.5.9",
         "@mui/icons-material"       : "^5.11.16",
-        "@mui/material"             : "^5.12.1",
+        "@mui/material"             : "^5.12.2",
         "@reduxjs/toolkit"          : "^1.9.5",
         "@sentry/react"             : "^7.49.0",
         "@ui-schema/ds-material"    : "^0.4.1",

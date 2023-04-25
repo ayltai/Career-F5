@@ -21,20 +21,20 @@
     "form_specialisation"                                      : "專業",
     "banner_title"                                             : "讓你的職業生涯在資訊科技行業的重生",
     "banner_description"                                       : "用我們經過行業驗證的方法釋放您的潛力，成為一名軟件工程師 — 立即申請並獲得85折早鳥優惠",
-    "banner_part_time"                                         : "兼職時間",
-    "banner_remote"                                            : "遠程現場課程",
+    "banner_part_time"                                         : "兼讀制時間",
+    "banner_remote"                                            : "遥距實時課程",
     "banner_interview"                                         : "面試準備",
     "apply_title"                                              : "開始你的申請 — 你成功的第一步",
     "apply_description"                                        : "我們將盡快與你聯絡以審查你的申請以及安排強制篩查。",
     "apply_note"                                               : "成功沒有秘訣。這是一個決定，是準備、努力和堅持的結果。",
     "overview_title"                                           : "在不辭去日常工作的情況下將軟件工程師加到你的簡歷中",
-    "overview_description"                                     : "我們的兼職、完全遠程的培訓課程是靈活的，課程有導師實時的支持。對於那些沒有時間參加全日制的人來說，這是一個理想的選擇。在16週的時間裡，您應該每週投入10小時的實時課程和10到20小時的結對編程、代碼審查和自我練習。",
+    "overview_description"                                     : "我們的兼讀制、完全遥距的培訓課程是靈活的，課程有導師實時的支持。對於那些沒有時間參加全日制的人來說，這是一個理想的選擇。在16週的時間裡，您應該每週投入10小時的實時課程和10到20小時的結對編程、代碼審查和自我練習。",
     "structure_learning"                                       : "你會將學習到",
     "instructor_header"                                        : "首席軟件架構師",
     "instructor_name"                                          : "Alan",
     "instructor_descriptions"                                  : [
         "是一個技術倡導者、精通軟件架構、網頁和移動應用程序開發，涵蓋金融科技、人工智能、電信和社交媒體等廣泛知識領域。",
-        "他在J.P. Morgan Chase & Co.、匯豐銀行、Mox Bank、C. Hoare & Co.、NHS、Generali和許多其他頂級組織中擁有20年的項目交付經驗，幫助他們從零開始構想創意，創造有價值的業務。在過去的 4 年裡，他為這些組織中的不同職位進行了500多次面試。",
+        "他在J.P. Morgan Chase & Co.、匯豐銀行、Mox Bank、C. Hoare & Co.、NHS、Generali和許多其他頂級組織中擁有20年的項目交付經驗，幫助他們從零開始構想創意，創造有價值的業務。在過去的4年裡，他為這些組織中的不同職位進行了500多次面試。",
         "作為雲基礎架構和DevOps的擁護者，他被Google認可並認證為專業雲架構師、AWS認證開發人員和Microsoft認證Azure管理員。"
     ],
     "experience_jpmc"                                          : "J.P. Morgan Chase & Co.",
@@ -76,7 +76,7 @@
     "structure_titles"                                         : [
         "週 1-2 | 軟件開發基礎",
         "週 3-6 | 基礎 Java / 基礎 JavaScript",
-        "週 7-10 | 後端開發 / 網頁前端開發 / 移動應用前端開發",
+        "週 7-10 | 後台開發 / 網頁前端開發 / App開發",
         "週 11-12 | 測試驅動設計",
         "週 13-16 | 頂點項目",
         "面試準備（選修）"
@@ -84,7 +84,7 @@
     "structure_descriptions"                                   : [
         "在開始培訓課程時你將會學習在職業生涯中取得成功所必需的習慣、計算機基礎知識以及基本編程概念和技能。在這幾週內，我們將介紹軟件開發生命週期和軟件架構，以及行業中使用的常用工具和技術，例如Scrum、Git、Linux和Bash。",
         "在接下來的4週內，你將學習Java或JavaScript的基礎知識，具體取決於您的專業。你將學習語法、數據類型、控制流和面向對象的編程概念。你還將學習如何使用IDE和調試器編寫去調試代碼。",
-        "在接下來的4週內，你將學習使用Java Spring Boot或Node.js進行後端開發，使用React進行網頁開發，以及使用React Native或Android進行移動應用前端開發。你將學習如何構建RESTful API、如何使用數據庫、如何使用Redux構建網頁應用程序以及如何構建和發布移動應用程序。",
+        "在接下來的4週內，你將學習使用Java Spring Boot或Node.js進行後台開發，使用React進行網頁開發，以及使用React Native或Android進行App開發。你將學習如何構建RESTful API、如何使用數據庫、如何使用Redux構建網頁應用程序以及如何構建和發布移動應用程序。",
         "在接下來的2週內，你將學習如何編寫測試用例以及如何使用測試驅動設計來編寫代碼。你將學習如何使用JUnit、Mockito、Jest和Cypress或Espresso來編寫單元測試和集成測試。",
         "在接下來的4週內，你將將從事兩個頂點項目，兩個頂點項目，以應用你在前幾週學到的知識。你將與2或3人的團隊一起完成小組項目和個人項目。你將學習如何使用Git來管理你的代碼，如何使用Agile方法來管理項目的進度，以及如何使用CI/CD來管理部署應用程序。",
         "在這些選修課程中，你將學習如何準備技術面試。你將通過我們提供的模擬面試、如何回答技術問題以及如何回答行為問題，學習如何創建理想的簡歷並為面試做準備。"
@@ -132,15 +132,15 @@
     "location_london"                                          : "倫敦",
     "location_toronto"                                         : "多倫多",
     "location_sydney"                                          : "悉尼",
-    "course_backend"                                           : "後端",
+    "course_backend"                                           : "後台",
     "course_frontend_web"                                      : "網頁前端",
-    "course_frontend_mobile"                                   : "移動應用前端",
+    "course_frontend_mobile"                                   : "App",
     "course_cloud"                                             : "雲工程",
-    "course_backend_java"                                      : "Java Spring Boot後端開發",
-    "course_backend_node"                                      : "Node.js後端開發",
+    "course_backend_java"                                      : "Java Spring Boot後台開發",
+    "course_backend_node"                                      : "Node.js後台開發",
     "course_frontend_react"                                    : "React網頁前端開發",
-    "course_frontend_android"                                  : "Android移動應用前端開發",
-    "course_frontend_react_native"                             : "React Native移動應用前端開發",
+    "course_frontend_android"                                  : "Android App開發",
+    "course_frontend_react_native"                             : "React Native App開發",
     "course_cloud_aws"                                         : "亞馬遜AWS雲工程",
     "course_cloud_azure"                                       : "微軟Azure雲工程",
     "course_cloud_gcp"                                         : "谷歌雲平台工程",
@@ -259,7 +259,7 @@
             },
             "professions" : [
                 {
-                    "name"     : "後端軟件工程師",
+                    "name"     : "後台軟件工程師",
                     "salaries" : {
                         "min" : 257700,
                         "avg" : 612000,
@@ -292,7 +292,7 @@
             },
             "professions" : [
                 {
-                    "name"     : "後端軟件工程師",
+                    "name"     : "後台軟件工程師",
                     "salaries" : {
                         "min" : 26800,
                         "avg" : 63600,
@@ -325,7 +325,7 @@
             },
             "professions" : [
                 {
-                    "name"     : "後端軟件工程師",
+                    "name"     : "後台軟件工程師",
                     "salaries" : {
                         "min" : 28000,
                         "avg" : 88300,
@@ -358,7 +358,7 @@
             },
             "professions" : [
                 {
-                    "name"     : "後端軟件工程師",
+                    "name"     : "後台軟件工程師",
                     "salaries" : {
                         "min" : 34200,
                         "avg" : 107500,
@@ -392,11 +392,11 @@
     "error_contact_failed"                                     : "發送消息失敗。請稍後再試。",
     "error_apply_failed"                                       : "無法發送您的申請。請稍後再試。",
     "error.required-not-set"                                   : "這是必填欄",
-    "widget.entry.875538261.enum.course_backend_java"          : "Java Spring Boot後端開發",
-    "widget.entry.875538261.enum.course_backend_node"          : "Node.js後端開發",
+    "widget.entry.875538261.enum.course_backend_java"          : "Java Spring Boot後台開發",
+    "widget.entry.875538261.enum.course_backend_node"          : "Node.js後台開發",
     "widget.entry.875538261.enum.course_frontend_react"        : "React網頁前端開發",
-    "widget.entry.875538261.enum.course_frontend_android"      : "Android移動應用前端開發",
-    "widget.entry.875538261.enum.course_frontend_react_native" : "React Native移動應用前端開發",
+    "widget.entry.875538261.enum.course_frontend_android"      : "Android App開發",
+    "widget.entry.875538261.enum.course_frontend_react_native" : "React Native App開發",
     "widget.entry.875538261.enum.course_cloud_aws"             : "亞馬遜AWS雲工程",
     "widget.entry.875538261.enum.course_cloud_azure"           : "微軟Azure雲工程",
     "widget.entry.875538261.enum.course_cloud_gcp"             : "谷歌雲平台工程"
