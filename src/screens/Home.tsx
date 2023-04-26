@@ -6,6 +6,7 @@ import { useTranslation, } from 'react-i18next';
 import type { Course, Segmentation, } from '../@types';
 import { BannerSection, ContactSection, CourseSection, InstructorSection, OverviewSection, PaymentSection, ProspectSection, StructureSection, } from '../sections';
 import { contactDefinition, } from '../data';
+import { useAdTag, } from '../hooks';
 import { handleError, } from '../utils';
 
 export const Home = ({
@@ -18,6 +19,7 @@ export const Home = ({
     const [ contactOpen, setContactOpen, ] = useState(false);
     const [ errorOpen,   setErrorOpen,   ] = useState(false);
 
+    const gtag  = useAdTag(process.env.REACT_APP_GTAG);
     const theme = useTheme();
 
     const { t, } = useTranslation();
@@ -50,7 +52,7 @@ export const Home = ({
 
     const handleErrorClose = () => setErrorOpen(false);
 
-    const handleContactSubmit = (data : Record<string, string>) => fetch('https://corsproxy.io/?https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZNiL_ymbqXnbIeIF6HUt6BtPzHjRk6qMmrCgg1qo40eBqkg/formResponse', {
+    const handleSubmit = (data : Record<string, string>) => fetch('https://corsproxy.io/?https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZNiL_ymbqXnbIeIF6HUt6BtPzHjRk6qMmrCgg1qo40eBqkg/formResponse', {
         method  : 'POST',
         headers : {
             'Content-Type' : 'application/x-www-form-urlencoded',
@@ -67,6 +69,10 @@ export const Home = ({
 
         return false;
     }).finally(() => {
+        if (gtag && process.env.REACT_APP_GTAG_CONVERSION) gtag('event', 'conversion', {
+            send_to : process.env.REACT_APP_GTAG_CONVERSION,
+        });
+
         if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('Contact');
     });
 
@@ -117,7 +123,7 @@ export const Home = ({
                     description={t<string>('contact_description')}
                     definition={contactDefinition}
                     contactAction={contactAction}
-                    onSubmit={handleContactSubmit} />
+                    onSubmit={handleSubmit} />
             </Box>
             <Dialog
                 open={contactOpen}

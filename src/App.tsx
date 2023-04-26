@@ -7,7 +7,7 @@ import { useTranslation, } from 'react-i18next';
 import { ApplyAction, ApplyDialog, ContactAction, Footer, TopBar, } from './components';
 import { applicationDefinition, } from './data';
 import { Home, } from './screens';
-import { useAppSelector, } from './hooks';
+import { useAdTag, useAppSelector, } from './hooks';
 import { AppTheme, } from './styles';
 import { handleError, } from './utils';
 
@@ -23,6 +23,7 @@ const handleCallToActionClick = () => {
 };
 
 export const App = () => {
+    const gtag     = useAdTag(process.env.REACT_APP_GTAG);
     const language = useAppSelector(state => state.preferences.language);
 
     const [ applyOpen, setApplyOpen, ] = useState<boolean>(false);
@@ -54,6 +55,10 @@ export const App = () => {
 
         return false;
     }).finally(() => {
+        if (gtag && process.env.REACT_APP_GTAG_CONVERSION) gtag('event', 'conversion', {
+            send_to : process.env.REACT_APP_GTAG_CONVERSION,
+        });
+
         if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('Apply');
     });
 
