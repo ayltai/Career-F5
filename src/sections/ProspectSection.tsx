@@ -45,6 +45,7 @@ export const ProspectSection = ({
         style                 : 'currency',
         currency              : segmentations.find(segmentation => segmentation.location.name === selectedSegment)!.location.currency,
         maximumFractionDigits : 0,
+        minimumFractionDigits : 0,
     }).format(value);
 
     const salaries = segmentations.find(segmentation => segmentation.location.name === selectedSegment)!.professions.map(profession => (
