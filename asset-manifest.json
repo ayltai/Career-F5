@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5293e719.css",
-    "main.js": "/static/js/main.6582d032.js",
+    "main.js": "/static/js/main.930dd798.js",
     "static/media/noto-serif-tc-chinese-traditional-700-normal.woff": "/static/media/noto-serif-tc-chinese-traditional-700-normal.ec88b25e65befc5386df.woff",
     "static/media/noto-serif-tc-chinese-traditional-400-normal.woff": "/static/media/noto-serif-tc-chinese-traditional-400-normal.45d67b13510e313d5c4e.woff",
     "static/media/noto-serif-tc-chinese-traditional-700-normal.woff2": "/static/media/noto-serif-tc-chinese-traditional-700-normal.4c2f3871fbec205aaa57.woff2",
@@ -29,10 +29,10 @@
     "static/media/kreon-latin-ext-700-normal.woff2": "/static/media/kreon-latin-ext-700-normal.e6bb69bfe8d284569bfa.woff2",
     "index.html": "/index.html",
     "main.5293e719.css.map": "/static/css/main.5293e719.css.map",
-    "main.6582d032.js.map": "/static/js/main.6582d032.js.map"
+    "main.930dd798.js.map": "/static/js/main.930dd798.js.map"
   },
   "entrypoints": [
     "static/css/main.5293e719.css",
-    "static/js/main.6582d032.js"
+    "static/js/main.930dd798.js"
   ]
 }
