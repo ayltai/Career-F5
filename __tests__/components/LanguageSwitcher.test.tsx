@@ -20,7 +20,7 @@ describe('LanguageSwitcher', () => {
 
         fireEvent.click(getByRole('button'));
 
-        expect(getByRole('menu')).toBeInTheDocument();
+        expect(getByRole('menu')).not.toBeNull();
     });
 
     it('changes the language to Chinese when the Chinese menu item is clicked', async () => {

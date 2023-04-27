@@ -1,7 +1,9 @@
 import React from 'react';
 
 import { fireEvent, render, } from '../../src/utils/test';
-import { ContactAction, } from '../../src/components/ContactAction';
+import { ContactAction, } from '../../src/components';
+
+window.gtag = jest.fn();
 
 describe('ContactAction', () => {
     it('renders correctly', () => {

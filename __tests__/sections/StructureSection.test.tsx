@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { fireEvent, render, waitFor, } from '../../src/utils/test';
-import { StructureSection, } from '../../src/sections/StructureSection';
+import { StructureSection, } from '../../src/sections';
 
 describe('StructureSection', () => {
     it('renders correctly', () => expect(render(
@@ -61,14 +61,14 @@ describe('StructureSection', () => {
                 ]} />
         );
 
-        expect(getByText('title_1')).toBeInTheDocument();
-        expect(queryByText('title_2')).not.toBeInTheDocument();
+        expect(getByText('title_1')).not.toBeNull();
+        expect(queryByText('title_2')).toBeNull();
 
         fireEvent.click(getAllByRole('button')[1]);
 
         await waitFor(() => {
-            expect(getByText('title_2')).toBeInTheDocument();
-            expect(queryByText('title_1')).not.toBeInTheDocument();
+            expect(getByText('title_2')).not.toBeNull();
+            expect(queryByText('title_1')).toBeNull();
         });
     });
 });

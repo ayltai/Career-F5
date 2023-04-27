@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { render, } from '../../src/utils/test';
-import { RangeIndicator, } from '../../src/components/RangeIndicator';
+import { RangeIndicator, } from '../../src/components';
 
 describe('RangeIndicator', () => {
     it('renders correctly', () => expect(render(

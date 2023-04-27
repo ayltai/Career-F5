@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { createMatchMedia, render, } from '../../src/utils/test';
-import { PaymentPlan, } from '../../src/components/PaymentPlan';
+import { PaymentPlan, } from '../../src/components';
 
 describe('PaymentPlan', () => {
     beforeAll(() => {

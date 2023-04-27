@@ -1,19 +1,22 @@
 import { WhatsApp as WhatsAppIcon, } from '@mui/icons-material';
-import { Button, Typography, } from '@mui/material';
+import { Button, Fab, Typography, } from '@mui/material';
+import mixpanel from 'mixpanel-browser';
 import React from 'react';
 import { useTranslation, } from 'react-i18next';
 
-import { useAdTag, } from '../hooks';
-
-export const ContactAction = () => {
-    const gtag = useAdTag(process.env.REACT_APP_GTAG);
-
+export const ContactAction = ({
+    variant = 'button',
+} : {
+    variant? : 'button' | 'fab',
+}) => {
     const { t, } = useTranslation();
 
     const handleClick = () => {
-        if (gtag && process.env.REACT_APP_GTAG_CONVERSION) gtag('event', 'conversion', {
-            send_to : process.env.REACT_APP_GTAG_CONVERSION,
+        window.gtag('event', 'conversion', {
+            'send_to' : process.env.REACT_APP_GTAG_CONVERSION,
         });
+
+        if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('WhatsApp');
 
         if (process.env.REACT_APP_WHATSAPP_PHONE_NUMBER) {
             const newWindow = window.open(`https://wa.me/${process.env.REACT_APP_WHATSAPP_PHONE_NUMBER}`, '_blank', 'noopener,noreferrer');
@@ -21,7 +24,7 @@ export const ContactAction = () => {
         }
     };
 
-    return (
+    return variant === 'button' ? (
         <Button
             variant='contained'
             color='secondary'
@@ -37,5 +40,22 @@ export const ContactAction = () => {
                 {t('whatsapp')}
             </Typography>
         </Button>
+    ) : (
+        <Fab
+            sx={{
+                display  : {
+                    sx : 'block',
+                    md : 'none',
+                },
+                position : 'fixed',
+                right    : 32,
+                bottom   : 32,
+            }}
+            color='secondary'
+            onClick={handleClick}>
+            <WhatsAppIcon sx={{
+                color : 'white',
+            }} />
+        </Fab>
     );
 };

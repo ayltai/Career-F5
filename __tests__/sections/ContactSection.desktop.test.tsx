@@ -2,7 +2,7 @@ import React from 'react';
 
 import { contactDefinition, } from '../../src/data';
 import { createMatchMedia, render, } from '../../src/utils/test';
-import { ContactSection, } from '../../src/sections/ContactSection';
+import { ContactSection, } from '../../src/sections';
 
 describe('ContactSection', () => {
     beforeAll(() => {

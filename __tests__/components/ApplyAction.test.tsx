@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { fireEvent, render, } from '../../src/utils/test';
-import { ApplyAction, } from '../../src/components/ApplyAction';
+import { ApplyAction, } from '../../src/components';
 
 describe('ApplyAction', () => {
     it('renders correctly', () => {

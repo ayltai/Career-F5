@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { createMatchMedia, render, } from '../../src/utils/test';
-import { OverviewSection, } from '../../src/sections/OverviewSection';
+import { OverviewSection, } from '../../src/sections';
 
 describe('OverviewSection', () => {
     beforeAll(() => {

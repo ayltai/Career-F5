@@ -1,5 +1,4 @@
-import { WhatsApp as WhatsAppIcon, } from '@mui/icons-material';
-import { Button, CssBaseline, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Fab, Stack, Theme, ThemeProvider, Typography, } from '@mui/material';
+import { Button, CssBaseline, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Stack, Theme, ThemeProvider, Typography, } from '@mui/material';
 import mixpanel from 'mixpanel-browser';
 import React, { Fragment, useEffect, useState, } from 'react';
 import { useTranslation, } from 'react-i18next';
@@ -7,23 +6,13 @@ import { useTranslation, } from 'react-i18next';
 import { ApplyAction, ApplyDialog, ContactAction, Footer, TopBar, } from './components';
 import { applicationDefinition, } from './data';
 import { Home, } from './screens';
-import { useAdTag, useAppSelector, } from './hooks';
+import { useAppSelector, } from './hooks';
 import { AppTheme, } from './styles';
 import { handleError, } from './utils';
 
 const contactAction = <ContactAction />;
 
-const handleCallToActionClick = () => {
-    if (process.env.REACT_APP_WHATSAPP_PHONE_NUMBER) {
-        if (process.env.REACT_APP_MIXPANEL_TOKEN) mixpanel.track('WhatsApp');
-
-        const newWindow = window.open(`https://wa.me/${ process.env.REACT_APP_WHATSAPP_PHONE_NUMBER }`, '_blank', 'noopener,noreferrer');
-        if (newWindow) newWindow.opener = null;
-    }
-};
-
 export const App = () => {
-    const gtag     = useAdTag(process.env.REACT_APP_GTAG);
     const language = useAppSelector(state => state.preferences.language);
 
     const [ applyOpen, setApplyOpen, ] = useState<boolean>(false);
@@ -55,7 +44,7 @@ export const App = () => {
 
         return false;
     }).finally(() => {
-        if (gtag && process.env.REACT_APP_GTAG_CONVERSION) gtag('event', 'conversion', {
+        window.gtag('event', 'conversion', {
             send_to : process.env.REACT_APP_GTAG_CONVERSION,
         });
 
@@ -120,22 +109,7 @@ export const App = () => {
                         </Stack>
                     }
                 />
-                <Fab
-                    sx={{
-                        display  : {
-                            sx : 'block',
-                            md : 'none',
-                        },
-                        position : 'fixed',
-                        right    : 32,
-                        bottom   : 32,
-                    }}
-                    color='secondary'
-                    onClick={handleCallToActionClick}>
-                    <WhatsAppIcon sx={{
-                        color : 'white',
-                    }} />
-                </Fab>
+                <ContactAction variant='fab' />
                 <Home
                     applyAction={applyAction}
                     contactAction={contactAction} />

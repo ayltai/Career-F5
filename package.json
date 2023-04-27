@@ -1,7 +1,7 @@
 {
     "name"            : "careerf5",
     "description"     : "Refresh your career in the IT industry!",
-    "version"         : "1.0.3",
+    "version"         : "1.0.4",
     "author"          : {
         "name" : "Alan Tai"
     },
@@ -51,7 +51,7 @@
         "@mui/icons-material"       : "^5.11.16",
         "@mui/material"             : "^5.12.2",
         "@reduxjs/toolkit"          : "^1.9.5",
-        "@sentry/react"             : "^7.49.0",
+        "@sentry/react"             : "^7.50.0",
         "@ui-schema/ds-material"    : "^0.4.1",
         "@ui-schema/ui-schema"      : "^0.4.5",
         "i18next"                   : "^22.4.15",
@@ -114,7 +114,7 @@
         "moduleNameMapper"       : {
             ".+\\.(css|less|sass|scss|png|jpg|gif|webp|svg|ttf|woff|woff2)$" : "jest-transform-stub"
         },
-        "testEnvironment"        : "jsdom",
+        "testEnvironment"        : "jest-environment-jsdom",
         "testPathIgnorePatterns" : [
             "<rootDir>/src/utils/test.tsx"
         ],

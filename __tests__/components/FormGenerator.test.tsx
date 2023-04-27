@@ -18,10 +18,10 @@ describe('FormGenerator', () => {
 
         expect(container).toMatchSnapshot();
 
-        expect(getByLabelText('form_name *')).toBeInTheDocument();
-        expect(getByLabelText('form_email *')).toBeInTheDocument();
-        expect(getByLabelText('form_message *')).toBeInTheDocument();
-        expect(getByRole('button')).toBeInTheDocument();
+        expect(getByLabelText('form_name *')).not.toBeNull();
+        expect(getByLabelText('form_email *')).not.toBeNull();
+        expect(getByLabelText('form_message *')).not.toBeNull();
+        expect(getByRole('button')).not.toBeNull();
         expect(getByRole('button')).toBeDisabled();
     });
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { segmentations, } from '../../src/i18n/en.json';
 import { createMatchMedia, render, } from '../../src/utils/test';
-import { ProspectSection, } from '../../src/sections/ProspectSection';
+import { ProspectSection, } from '../../src/sections';
 
 describe('ProspectSection', () => {
     beforeAll(() => {

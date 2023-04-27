@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { render, } from '../../src/utils/test';
-import { TopBar, } from '../../src/components/TopBar';
+import { TopBar, } from '../../src/components';
 
 describe('TopBar', () => {
     it('renders correctly', () => expect(render(

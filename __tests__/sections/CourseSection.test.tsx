@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { render, } from '../../src/utils/test';
-import { CourseSection, } from '../../src/sections/CourseSection';
+import { CourseSection, } from '../../src/sections';
 
 describe('CourseSection', () => {
     it('renders correctly', () => expect(render(
