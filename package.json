@@ -45,7 +45,7 @@
         "@emotion/styled"           : "^11.10.6",
         "@fontsource/kreon"         : "^4.5.12",
         "@fontsource/lobster-two"   : "^4.5.10",
-        "@fontsource/noto-sans-tc"  : "^4.5.12",
+        "@fontsource/noto-sans-tc"  : "^5.0.3",
         "@fontsource/noto-serif-tc" : "^4.5.12",
         "@fontsource/sansita"       : "^4.5.9",
         "@mui/icons-material"       : "^5.11.16",
