@@ -44,7 +44,7 @@
         "@emotion/react"            : "^11.10.6",
         "@emotion/styled"           : "^11.10.6",
         "@fontsource/kreon"         : "^4.5.12",
-        "@fontsource/lobster-two"   : "^4.5.10",
+        "@fontsource/lobster-two"   : "^5.0.18",
         "@fontsource/noto-sans-tc"  : "^4.5.12",
         "@fontsource/noto-serif-tc" : "^4.5.12",
         "@fontsource/sansita"       : "^4.5.9",
