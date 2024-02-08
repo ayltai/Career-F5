@@ -47,7 +47,7 @@
         "@fontsource/lobster-two"   : "^4.5.10",
         "@fontsource/noto-sans-tc"  : "^4.5.12",
         "@fontsource/noto-serif-tc" : "^4.5.12",
-        "@fontsource/sansita"       : "^4.5.9",
+        "@fontsource/sansita"       : "^5.0.18",
         "@mui/icons-material"       : "^5.11.16",
         "@mui/material"             : "^5.12.2",
         "@reduxjs/toolkit"          : "^1.9.5",
